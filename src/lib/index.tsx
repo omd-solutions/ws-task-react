@@ -1,3 +1,5 @@
 import Task from "./components/Task"
+import TaskList from "./components/TaskList"
+import TaskManager from "./components/TaskManager"
 
-export { Task };
+export { Task, TaskList, TaskManager };
