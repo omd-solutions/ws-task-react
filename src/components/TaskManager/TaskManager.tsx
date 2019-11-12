@@ -1,10 +1,10 @@
 import React, {Component, ReactNode} from "react";
 import {AppBar, Tab, Tabs} from "@material-ui/core";
-import TaskList from "./TaskList";
+import TaskList from "../TaskList";
 
 type Props = {
-    brokerUrl: string | undefined
-    msgEndpoint: string | undefined
+    brokerUrl?: string
+    msgEndpoint?: string
 }
 
 type State = {

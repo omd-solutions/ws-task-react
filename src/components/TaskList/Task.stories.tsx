@@ -1,6 +1,7 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react';
-import Task from '../lib/components/Task';
+import Task from './Task';
+import TaskReport from "./TaskReport";
 
 export const taskReport: TaskReport = {
     taskId: "123",
