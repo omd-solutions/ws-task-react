@@ -35,7 +35,7 @@ class TaskManager extends Component<Props, State> {
         if (this.state.tabIndex === 1) {
             status = "QUEUED";
         } else if(this.state.tabIndex === 2) {
-            status = "FINISHED,ERROR";
+            status = "SUCCESS,ERROR";
         }
 
         return (
